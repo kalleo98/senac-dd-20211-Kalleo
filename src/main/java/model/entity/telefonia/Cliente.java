@@ -19,6 +19,12 @@ public class Cliente {
 		this.ativo = ativo;
 	}
 
+	@Override
+	public String toString() {
+		return "Nome: " + this.getNome() + " - " + this.getCpf() + ". Endereço: " + this.getEndereco() + ". Telefones: "
+				+ this.getTelefones();
+	}
+
 	public String getNome() {
 		return nome;
 	}

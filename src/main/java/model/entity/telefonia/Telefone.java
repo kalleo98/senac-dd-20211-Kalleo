@@ -15,6 +15,12 @@ public class Telefone {
 		this.ativo = ativo;
 	}
 
+	@Override
+	public String toString() {
+		return "Telefone [codigoInternacional=" + codigoInternacional + ", ddd=" + ddd + ", numero=" + numero
+				+ ", ativo=" + ativo + "]";
+	}
+
 	public String getCodigoInternacional() {
 		return codigoInternacional;
 	}

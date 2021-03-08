@@ -17,6 +17,12 @@ public class Endereco {
 		this.numero = numero;
 	}
 
+	@Override
+	public String toString() {
+		return "Endereco [logradouro=" + logradouro + ", uf=" + uf + ", cidade=" + cidade + ", cep=" + cep + ", numero="
+				+ numero + "]";
+	}
+
 	public String getLogradouro() {
 		return logradouro;
 	}
