@@ -7,10 +7,6 @@ public class Telefone {
 	private String numero;
 	private boolean ativo;
 
-	public Telefone() {
-		super();
-	}
-
 	public Telefone(String codigoInternacional, String ddd, String numero, boolean ativo) {
 		super();
 		this.codigoInternacional = codigoInternacional;
